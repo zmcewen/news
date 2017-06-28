@@ -38,6 +38,9 @@ nav span a {
   text-decoration: underline;
   cursor: auto;
 }
+body {
+  display: block;
+}
 .container {
   border: 2px solid red;
   display: flex;
@@ -53,6 +56,7 @@ nav span a {
 .column.large {
   border: 2px solid blue;
   width: 630px;
+  display: flex;
 }
 .lead-story {
   border: 2px dotted Aqua;
@@ -71,19 +75,34 @@ nav span a {
   margin-top:0px;
   font-size: 40px;
   text-align: left;
+  display: flex;
 }
 .narrative {
   border: 2px dotted orange;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: block;
 }
 .stories {
   border: 2px dotted red;
   display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 630px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 .fall-cancelled.image-content {
   background-image: url("../images/img-story-2.png");
+  display: flex;
 }
 .pop-culture.image-content {
   background-image: url("../images/img-story-3.png");
+  display: flex;
 }
 .column.medium {
   border: 2px solid green;
@@ -92,6 +111,7 @@ nav span a {
 }
 .cat-ceo.image-content {
   background-image: url("../images/img-story-1.png");
+  display: flex;
 }
 .column.small {
   border: 2px solid orange;
